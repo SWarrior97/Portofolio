@@ -1,3 +1,4 @@
+
 <!DOCTYPE HTML>
 <html>
 	<head>
@@ -53,6 +54,7 @@
 
 	</head>
 	<body>
+		
 	<div id="colorlib-page">
 		<div class="container-wrap">
 		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
@@ -66,7 +68,7 @@
 				<div id="navbar" class="collapse">
 					<ul>
 						<li class="active"><a href="#" data-nav-section="home">Início</a></li>
-						<li><a href="#" data-nav-section="about">Sobre min</a></li>
+						<li><a href="#" data-nav-section="about">Sobre mim</a></li>
 						<li><a href="#" data-nav-section="skills">Especialidade</a></li>
 						<li><a href="#" data-nav-section="education">Formação</a></li>
 						<li><a href="#" data-nav-section="work">Projectos</a></li>
@@ -99,7 +101,7 @@
 					   					<div class="desc">
 											   <div class="Wrapper">
 													<koh1>Olá! <br>Sou o Carlos</h1>
-														<p><a class="btn btn-primary btn-learn2">Download CV <i class="icon-download4"></i></a></p>
+														<p><a onclick="downloadFile()" id="download" class="btn btn-primary btn-learn2">Download CV <i class="icon-download4"></i></a></p>
 											   </div>
 										</div>
 					   				</div>
@@ -118,7 +120,7 @@
 							<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
 								<div class="col-md-12">
 									<div class="about-desc">
-										<span class="heading-meta">Sobre Min</span>
+										<span class="heading-meta">Sobre Mim</span>
 										<h2 class="colorlib-heading">Quem sou?</h2>
 										<p><strong>Sou Carlos Gomes</strong> Licenciado em Engenharia Informática, no Instituto Politécnico de Leiria. Gosto de novos desafios e estou sempre a procura de conhecimento, aberto a aprender mais e mais.</p>
 										<p>Actualmente sou estudante do mestrado de Cibersegurança e Informática Forense no Instituto Politécnico de Leiria.</p>
@@ -404,6 +406,12 @@
 	</div><!-- end:colorlib-page -->
 
 	<!-- jQuery -->
+	<script>
+		function downloadFile() {
+			console.log("teste");
+		}
+	</script>
+	
 	<script src="js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
 	<script src="js/jquery.easing.1.3.js"></script>
@@ -421,7 +429,6 @@
 	
 	<!-- MAIN JS -->
 	<script src="js/main.js"></script>
-
 	</body>
 </html>
 
