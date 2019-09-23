@@ -11,6 +11,12 @@
 *	Edit this section
 *
 * ======================================================= */
+
+div.Wrapper *
+{
+    color: white;
+}
+
 body {
   font-family: "Quicksand", Arial, sans-serif;
   font-weight: 400;
